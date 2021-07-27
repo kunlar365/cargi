@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Mouse;
+    src: url('../fonts/style.css');
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
