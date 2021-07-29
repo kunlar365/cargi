@@ -55,7 +55,7 @@
 [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
+    speak-as: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -73,6 +73,7 @@
 
 .icon-mail:before {
     content: "\e901";
+    font-size: 16px;
 }
 
 .icon-ok:before {

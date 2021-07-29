@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+  .top-header__info:nth-child(3) {
+    display: none;
+  }
+
+  .top-header {
+    padding: 7px 0;
+  }
+
+  .justify-content-between {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-top: 0;
+  }
+
+  .main-header__nav {
+    display: none;
+  }
+
+  .benz_5 {
+    left: 30px;
+  }
+
+  .date {
+    right: 45px;
+  }
+}
