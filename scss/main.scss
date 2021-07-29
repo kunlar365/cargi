@@ -311,6 +311,10 @@ body {
     border-radius: 15px 0;
 }
 
+.grid-items:hover img {
+    box-shadow: 7px;
+}
+
 .works__content {
     position: relative;
     margin-bottom: 30px;
@@ -428,6 +432,15 @@ body {
 .grid-item1 {
     grid-column: 1 / 2;
     grid-row: 1 / 6;
+}
+
+.grid-container img {
+    border-radius: 7px;
+}
+
+.grid-items:hover img {
+    box-shadow: 0 0 0 4px #F62221;
+    border-radius: 7px;
 }
 
 .our-works {
@@ -586,4 +599,17 @@ ul {
 
 .second__content {
     margin-top: 68px;
+}
+
+.footer__links img{
+    width: 16px;
+    height: 16px;
+}
+
+.footer__links {
+    font-size: 16px;
+}
+
+.social-sets a:hover {
+    color: #F62221;
 }
