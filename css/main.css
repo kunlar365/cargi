@@ -650,18 +650,9 @@ ul {
 
 .second-page {
   background-image: url("../img/secondpage bg.jpg");
-  padding: 30px 0 115px;
+  padding: 20px 0 115px;
   background-position: center;
   position: relative;
-}
-
-.second-page::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 .second-title {
@@ -685,4 +676,56 @@ ul {
 
 .social-sets a:hover {
   color: #F62221;
+}
+
+.first-column, .second-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.first-column a {
+  text-decoration: none;
+  color: #7b7b7b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.second-column a {
+  text-decoration: none;
+  color: #7b7b7b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.first-column a:hover {
+  color: #fff;
+  background-color: #F62221;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.second-column a:hover {
+  color: #fff;
+  background-color: #F62221;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.third_page {
+  padding: 30px 0 170px;
+}
+
+.third-page {
+  margin-top: 0;
+  margin-bottom: 180px;
 }
